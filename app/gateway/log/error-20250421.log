@@ -1,0 +1,48 @@
+2025-04-21T16:11:23.962+01:00 {ccf46597105e3818f800cf6f281e33b8} 200 "POST http 127.0.0.1:8000 /v1/users/login HTTP/1.1" 3003635.600, 127.0.0.1, "", "PostmanRuntime/7.43.3", 4, "", ""
+Stack:
+1. context deadline exceeded
+   1).  google.golang.org/grpc.getChainUnaryInvoker.func1
+        D:/code/pkg/mod/google.golang.org/grpc@v1.71.1/clientconn.go:489
+   2).  proxima-vocabulary/app/gateway/utility.GrpcClientTimeout
+        D:/code/proxima-vocabulary/app/gateway/utility/grpc.go:15
+   3).  google.golang.org/grpc.NewClient.chainUnaryClientInterceptors.func1
+        D:/code/pkg/mod/google.golang.org/grpc@v1.71.1/clientconn.go:477
+   4).  google.golang.org/grpc.(*ClientConn).Invoke
+        D:/code/pkg/mod/google.golang.org/grpc@v1.71.1/call.go:35
+   5).  proxima-vocabulary/app/user/api/account/v1.(*accountClient).UserLogin
+        D:/code/proxima-vocabulary/app/user/api/account/v1/account_grpc.pb.go:58
+   6).  proxima-vocabulary/app/gateway/internal/controller/user.(*ControllerV1).Login
+        D:/code/proxima-vocabulary/app/gateway/internal/controller/user/user_v1_login.go:12
+
+2025-04-21T16:13:21.349+01:00 {60cc57ec2b5e3818f900cf6f63daf5e2} 200 "POST http 127.0.0.1:8000 /v1/users/login HTTP/1.1" 3001297.600, 127.0.0.1, "", "PostmanRuntime/7.43.3", 4, "", ""
+Stack:
+1. context deadline exceeded
+   1).  google.golang.org/grpc.getChainUnaryInvoker.func1
+        D:/code/pkg/mod/google.golang.org/grpc@v1.71.1/clientconn.go:489
+   2).  proxima-vocabulary/app/gateway/utility.GrpcClientTimeout
+        D:/code/proxima-vocabulary/app/gateway/utility/grpc.go:15
+   3).  google.golang.org/grpc.NewClient.chainUnaryClientInterceptors.func1
+        D:/code/pkg/mod/google.golang.org/grpc@v1.71.1/clientconn.go:477
+   4).  google.golang.org/grpc.(*ClientConn).Invoke
+        D:/code/pkg/mod/google.golang.org/grpc@v1.71.1/call.go:35
+   5).  proxima-vocabulary/app/user/api/account/v1.(*accountClient).UserLogin
+        D:/code/proxima-vocabulary/app/user/api/account/v1/account_grpc.pb.go:58
+   6).  proxima-vocabulary/app/gateway/internal/controller/user.(*ControllerV1).Login
+        D:/code/proxima-vocabulary/app/gateway/internal/controller/user/user_v1_login.go:12
+
+2025-04-21T16:15:25.132+01:00 {2c9e75be485e3818fb00cf6f5622f77f} 200 "POST http 127.0.0.1:8000 /v1/users/login HTTP/1.1" 3000837.400, 127.0.0.1, "", "PostmanRuntime/7.43.3", 4, "", ""
+Stack:
+1. context deadline exceeded
+   1).  google.golang.org/grpc.getChainUnaryInvoker.func1
+        D:/code/pkg/mod/google.golang.org/grpc@v1.71.1/clientconn.go:489
+   2).  proxima-vocabulary/app/gateway/utility.GrpcClientTimeout
+        D:/code/proxima-vocabulary/app/gateway/utility/grpc.go:15
+   3).  google.golang.org/grpc.NewClient.chainUnaryClientInterceptors.func1
+        D:/code/pkg/mod/google.golang.org/grpc@v1.71.1/clientconn.go:477
+   4).  google.golang.org/grpc.(*ClientConn).Invoke
+        D:/code/pkg/mod/google.golang.org/grpc@v1.71.1/call.go:35
+   5).  proxima-vocabulary/app/user/api/account/v1.(*accountClient).UserLogin
+        D:/code/proxima-vocabulary/app/user/api/account/v1/account_grpc.pb.go:58
+   6).  proxima-vocabulary/app/gateway/internal/controller/user.(*ControllerV1).Login
+        D:/code/proxima-vocabulary/app/gateway/internal/controller/user/user_v1_login.go:12
+
